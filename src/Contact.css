@@ -1,0 +1,27 @@
+.contact-page {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .data-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .data-list li {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .data-list h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .data-list p {
+    color: #555;
+  }
+  
