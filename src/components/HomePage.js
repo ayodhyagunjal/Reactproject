@@ -1,7 +1,7 @@
 import React from "react";
-import './AboutPage.css';
+import '../styles/HomePage.css';
 
-const AboutPage = () => {
+const HomePage = () => {
   const data = [
     { id: 1, name: "Item 1", description: "This is the description for Item 1" },
     { id: 2, name: "Item 2", description: "This is the description for Item 2" },
@@ -9,8 +9,8 @@ const AboutPage = () => {
   ];
 
   return (
-    <div className="about-page">
-      <h1>Welcome to the About Page</h1>
+    <div className="home-page">
+      <h1>Welcome to the Home Page</h1>
       <ul className="data-list">
         {data.map(item => (
           <li key={item.id}>
@@ -23,4 +23,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default HomePage;
